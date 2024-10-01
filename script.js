@@ -99,7 +99,7 @@ function calculateResult() {
             const resultRow = `
                 <tr>
                     <td>${subject.textContent}</td>
-                    <td>${totalMarks.toFixed(2)}</td>
+                    <td>${totalMarks.toFixed(0)}</td>
                     <td>${gradeData.gradePoint}</td>
                     <td>${gradeData.letterGrade}</td>
                 </tr>
