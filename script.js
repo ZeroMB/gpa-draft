@@ -117,7 +117,7 @@ function calculateResult() {
 
         let avgRow = `
             <tr>
-                <td colspan="2"><strong>Average Grade Point</strong></td>
+                <td colspan="2"><strong>Grade Point Average (GPA)</strong></td>
                 <td>${averageGradePoint.toFixed(2)}</td>
                 <td style="${avgGradeData.letterGrade === 'F' ? 'color: red;' : ''}">${avgGradeData.letterGrade}</td>
             </tr>
